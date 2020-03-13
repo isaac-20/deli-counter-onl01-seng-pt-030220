@@ -5,7 +5,7 @@ def line(katz_deli)
   if katz_deli.size < 1 
     puts "The line is currently empty."
   else
-      number = 1
+    number = 1
     katz_deli.each do |customer|
       line.push("#{number}. #{customer}")
       number += 1
